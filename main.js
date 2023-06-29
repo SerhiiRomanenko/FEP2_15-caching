@@ -15,7 +15,7 @@ function cachePhone(funk) {
 
   return function (phone) {
     // console.log(Object.keys(cache));
-    // console.log(cache);
+    console.log(cache);
     if (Object.keys(cache).length === 10) {
       delete cache[Object.keys(cache)[0]];
     }
